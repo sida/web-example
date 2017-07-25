@@ -1,0 +1,22 @@
+{
+  "name": "typescript_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "http": "http-server -o dist"
+  },
+  "author": "ysida",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/underscore": "^1.8.1",
+    "http-server": "^0.10.0",
+    "ts-loader": "^2.3.1",
+    "typescript": "^2.4.2",
+    "typings": "^2.1.1",
+    "underscore": "^1.8.3",
+    "webpack": "^3.3.0"
+  }
+}
